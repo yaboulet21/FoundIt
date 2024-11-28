@@ -1,0 +1,48 @@
+{
+    "project": "FoundIt - Chatbot RAG",
+    "base_directory": "D:\\Tech\\4.FoundIt\\RAG",
+    "steps": [
+        {
+            "step_id": 1,
+            "title": "Initialisation du projet",
+            "status": "completed",
+            "notes": "Project initialized with npm, dependencies installed, and Node.js tested successfully."
+        },
+        {
+            "step_id": 2,
+            "title": "Configuration de l'environnement",
+            "status": "completed",
+            "notes": "Environment configured with MongoDB and OpenAI keys."
+        },
+        {
+            "step_id": 3,
+            "title": "Création des modèles MongoDB",
+            "status": "completed",
+            "notes": "MongoDB model for objects created and tested."
+        },
+        {
+            "step_id": 4,
+            "title": "Intégration de l'API OpenAI et logique RAG",
+            "status": "completed",
+            "notes": "OpenAI API integrated and RAG logic validated successfully."
+        },
+        {
+            "step_id": 5,
+            "title": "Création des endpoints API",
+            "status": "in_progress",
+            "notes": "Search endpoint functional, CRUD endpoints pending."
+        },
+        {
+            "step_id": 6,
+            "title": "Développement du Frontend",
+            "status": "pending",
+            "notes": "Frontend development not yet started."
+        },
+        {
+            "step_id": 7,
+            "title": "Tests End-to-End et Régression",
+            "status": "pending",
+            "notes": "End-to-End tests and regression validation pending."
+        }
+    ]
+}
