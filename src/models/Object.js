@@ -10,7 +10,8 @@ const objectSchema = new mongoose.Schema({
     status: { type: String, enum: ['trouvé', 'perdu'], required: true },
     type_of_entry: { type: String, enum: ['staff', 'user'], required: true },
     user_phone: { type: String },
-    timestamp: { type: Date, default: Date.now }
+    timestamp: { type: Date, default: Date.now },
+    vector: { type: [Number], default: [] }
 });
 
 objectSchema.statics.findSimilarObjects = async function (attributes) {
